@@ -27,11 +27,11 @@ body{
     background-color:#4D80A8 ;
 }
 header{
-    background-color:#849658 ;
+    background-color:#D2B48C;
 }
 nav a:hover{
     background-color:#ADC2B3 ;
-    color: white;
+    color: black;
 }
 .book, .join:hover{
     background-color: #ADC2B3;
@@ -45,7 +45,7 @@ nav a:hover{
     background-color:rgb(184, 214, 227);
 }
 footer{
-    background-color:#849658 ;
+    background-color:#D2B48C ;
 }
 .logo{
     width: 80px;
