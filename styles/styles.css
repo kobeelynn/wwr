@@ -1,27 +1,30 @@
-body {
-    text-align: center;
-    }
-    nav {
+body 
+    nav, footer {
+    text-align: centre;    
     background-color: steelblue;
+    color: white;
     padding: 10px;
+    }
+    footer p {
+        font-size: 20px;
+        margin: 20px auto;
     }
     a {
     color: white;
     margin: 40px;
     }
     h1 {
+    text-align: center;
     color: steelblue;
     }
     img {
-    width: 800px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
     border: 4px solid steelblue;
     }
     p {
     padding: 10px;
-    }
-    footer {
-    background-color: steelblue;
-    color: white;
     }
     #active {
         background-color: white;
@@ -30,4 +33,16 @@ body {
     .main-para {
         font-size: 1.5em;
         line-height: 1.5em;
+    }
+    a:hover {
+        background-color: white;
+        color: steelblue;
+    }
+    * {
+        border: 2px solid blue;
+    }
+    img {
+        width: 30%;
+        display: inline;
+        margin: 0 auto;
     }
