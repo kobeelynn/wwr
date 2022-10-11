@@ -1,6 +1,5 @@
-Body 
 #content {
-    max-width:1600px;
+    max-width:800px;
     margin: 0 auto;
 }
 nav a{
@@ -8,16 +7,11 @@ nav a{
     color: white;
     text-decoration: none;
 }
-#hero-msg h1{
-    text-align:center;
-}
-#hero-msg h4{
-    text-align:center;
-}
-.button-box{
-    text-align:center;
-}
-main section{
+#hero-msg h1,
+#hero-msg h4,
+.button-box,
+main section
+{
     text-align:center;
 }
 #background {
@@ -47,10 +41,10 @@ nav a:hover{
 footer{
     background-color:#D2B48C ;
 }
-.logo{
+.logo, .icon {
     width: 80px;
 }
-.hero-img{
+#hero-img{
     width: 100%;
 }
 .home-title{
