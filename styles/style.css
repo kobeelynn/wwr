@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Mukta&display=swap');
+
 #content {
     max-width:800px;
     margin: 0 auto;
@@ -27,10 +29,12 @@ nav a:hover{
     background-color:#ADC2B3 ;
     color: black;
 }
-.book, .join:hover{
+.book, 
+.join:hover{
     background-color: #ADC2B3;
 }
-.book:hover, .join:hover{ 
+.book:hover, 
+.join:hover{ 
     background-color:#ADC2B3;}
 #background{
     background-color:rgb(184, 214, 227);
@@ -47,11 +51,10 @@ footer{
 #hero-img{
     width: 100%;
 }
-.home-title{
+.home-title, h4{
     color:black;
-}
-h4{
-    color:black;
+    font-family:"Kalam", 'Bradley Hand', sans-serif;
+    font-size: 2em;
 }
 .book, .join{
     text-align:center;
