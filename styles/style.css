@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Mukta&display=swap');
 
 #content {
-    max-width:800px;
+    max-width:1600px;
     margin: 0 auto;
 }
 nav a{
@@ -53,7 +53,7 @@ nav a:hover{
     padding: 35px;
 }
 .msg p{
-    font-size: .8em;
+    font-size: 2em;
     padding-bottom: 15px;
 }
 footer{
@@ -65,7 +65,7 @@ footer{
     padding-top: 10px;
 }
 #logo_link{
-    padding:35px;
+    padding:5px;
 }
 #hero-img{
     width: 100%;
@@ -76,8 +76,7 @@ footer{
     font-size: 2em;
     margin-top: 10px;
 }
-.book, 
-.join{
+.book, .join{
     text-align:center;
     color:black;
     text-decoration: none;
@@ -95,7 +94,7 @@ main section img{
 .rivers-card, 
 .camping-card, 
 .rapids-card{
-    margin: 200px;
+    margin: 200px 0;
 }
 
 footer a{
